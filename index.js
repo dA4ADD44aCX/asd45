@@ -44,7 +44,7 @@ client.on("ready", async () => {
         const r = new Discord.RichPresence()
             .setApplicationId('1121867777867788309')
             .setType('STREAMING')
-            .setURL('https://www.youtube.com/watch?v=1TsVjvEkc4s')
+            .setURL('https://www.youtube.com/watch?v=cvaIgq5j2Q8')
             .setState(stateTexts[currentStateIndex])
             .setName(nameTexts[currentnameTextsIndex])
             .setDetails(`·͙⁺˚•̩̩͙✩•̩̩͙˚⁺‧͙⁺˚•̩̩͙✩•̩̩͙˚⁺‧͙⁺˚•̩̩͙✩•̩̩͙˚⁺‧͙`)
@@ -52,7 +52,7 @@ client.on("ready", async () => {
             .setAssetsLargeText(`┆ ʚ📅 ${currentDate} ♡ ⌚${currentTime}ɞ ┆`)
             .setAssetsLargeImage(largeImages[currentLargeImageIndex])
             .setAssetsSmallText('A$t๏r 🖤')
-            .addButton('เข้าดิส', 'https://discord.gg/charlisy');
+            .addButton('roblox', 'https://www.roblox.com/users/3461254411/profile');
 
 
         client.user.setActivity(r);
