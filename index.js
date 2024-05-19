@@ -8,17 +8,17 @@ const app = express();
 const port = 8000;
 
 const largeImages = [
-    'https://media.discordapp.net/attachments/1239870999508553828/1239872549203214387/b12728982cdaee66b383b25943ec330e.gif?ex=664480cb&is=66432f4b&hm=b02a77d1392fbbf002cec3b875bca5a26cda95a0bc6fdf21cdd1d13e33861a4a&='
+    'https://media.discordapp.net/attachments/1241016552313065563/1241029617230418010/7d07a255678962d30d8717dcf5dbd266.gif?ex=664ab0a5&is=66495f25&hm=13ebbb75322028a6bdc18b10025eb9fd7572bff14d33cda4ef187e31d1214b1c&='
     // Add more large image URLs as needed
 ];
 
 const stateTexts = [
-    "'•.¸♡รักแมว ♡¸.•'"
+    "+:୨彼氏を愛してる୧:﹤"
     // Add more state texts as needed
 ];
 
 const nameTexts = [
-    "'•.¸♡รักแมว ♡¸.•'"
+    "+:୨彼氏を愛してる୧:﹤"
     // Add more state texts as needed
 ];
 
@@ -44,15 +44,15 @@ client.on("ready", async () => {
         const r = new Discord.RichPresence()
             .setApplicationId('1121867777867788309')
             .setType('STREAMING')
-            .setURL('https://www.youtube.com/watch?v=cvaIgq5j2Q8')
+            .setURL('https://www.youtube.com/watch?v=IhJZs4GwKYo')
             .setState(stateTexts[currentStateIndex])
             .setName(nameTexts[currentnameTextsIndex])
-            .setDetails(`·͙⁺˚•̩̩͙✩•̩̩͙˚⁺‧͙⁺˚•̩̩͙✩•̩̩͙˚⁺‧͙⁺˚•̩̩͙✩•̩̩͙˚⁺‧͙`)
+            .setDetails(`·͙⁺˚•̩̩͙✩•̩̩͙˚⁺‧͙⁺˚•̩̩͙✩•̩̩͙˚⁺‧͙`)
             .setStartTimestamp(startedAt)
             .setAssetsLargeText(`┆ ʚ📅 ${currentDate} ♡ ⌚${currentTime}ɞ ┆`)
             .setAssetsLargeImage(largeImages[currentLargeImageIndex])
             .setAssetsSmallText('A$t๏r 🖤')
-            .addButton('roblox', 'https://www.roblox.com/users/3461254411/profile');
+            .addButton('Fav Song', ' https://www.youtube.com/watch?v=Ud1NGiI3qvU');
 
 
         client.user.setActivity(r);
